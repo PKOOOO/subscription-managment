@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.gabriel2154.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -39,16 +40,22 @@
           }
         }
       ],
-      ["expo-font", {
-        "fonts": [
-          "./assets/fonts/PlusJakartaSans-Bold.ttf",
-          "./assets/fonts/PlusJakartaSans-ExtraBold.ttf",
-          "./assets/fonts/PlusJakartaSans-Light.ttf",
-          "./assets/fonts/PlusJakartaSans-Medium.ttf",
-          "./assets/fonts/PlusJakartaSans-Regular.ttf",
-          "./assets/fonts/PlusJakartaSans-SemiBold.ttf"
-        ]
-      }]
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/PlusJakartaSans-Bold.ttf",
+            "./assets/fonts/PlusJakartaSans-ExtraBold.ttf",
+            "./assets/fonts/PlusJakartaSans-Light.ttf",
+            "./assets/fonts/PlusJakartaSans-Medium.ttf",
+            "./assets/fonts/PlusJakartaSans-Regular.ttf",
+            "./assets/fonts/PlusJakartaSans-SemiBold.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store",
+      "expo-web-browser",
+      "@clerk/expo"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -57,9 +64,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "321330d3-b0eb-49d3-b35c-a64ea2fc4ccd"
+        "projectId": "86043026-921a-4bd9-bc9f-31da676dd158"
       }
     },
-    "owner": "lunar0311"
+    "owner": "gabriel2154"
   }
 }

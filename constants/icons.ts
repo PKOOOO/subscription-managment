@@ -1,12 +1,14 @@
 import activity from "@/assets/icons/activity.png";
 import add from "@/assets/icons/add.png";
 import adobe from "@/assets/icons/adobe.png";
+import apple from "@/assets/icons/apple.png";
 import back from "@/assets/icons/back.png";
 import canva from "@/assets/icons/canva.png";
 import claude from "@/assets/icons/claude.png";
 import dropbox from "@/assets/icons/dropbox.png";
 import figma from "@/assets/icons/figma.png";
 import github from "@/assets/icons/github.png";
+import google from "@/assets/icons/google.png";
 import home from "@/assets/icons/home.png";
 import medium from "@/assets/icons/medium.png";
 import menu from "@/assets/icons/menu.png";
@@ -23,6 +25,7 @@ export const icons = {
     setting,
     activity,
     add,
+    apple,
     back,
     menu,
     plus,
@@ -34,6 +37,7 @@ export const icons = {
     figma,
     spotify,
     github,
+    google,
     claude,
     canva,
 } as const;
